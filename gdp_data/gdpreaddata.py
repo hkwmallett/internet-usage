@@ -91,7 +91,7 @@ def gdpdata_for_country(country):
         if country == country_code[i]:
             save_con = i
             
-    data_for_country=data_2[save_con]
+        data_for_country=data_2[save_con]
     return(data_for_country)
 #print(data_for_country)
 
